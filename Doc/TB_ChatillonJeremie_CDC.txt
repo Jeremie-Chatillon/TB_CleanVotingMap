@@ -1,0 +1,22 @@
+HEIG-VD
+TB 2019
+Jérémie Châtillon
+
+1 Introduction
+Ce document est le cahier des charges du travail de Bachelor de fin d’études en informatique logiciel de la HEIG-VD département TIC.
+
+2  Mise en contexte
+Ce travail permettra de visualiser une carte du monde ; en fonction de jugements/votes associés à des positions géolocalisées, émis par des utilisateurs. Il existe déjà des outils permettant de faire une cartographie par un nuancé de couleurs (Heat map) en fonction de la fréquence d’une information. Il existe aussi des cartes qui permettent de juger un lieu (Choropleth map). Cependant, il n’existe pas d’outil qui produise les deux. Ce qui consisterait de pouvoir juger une position sur un critère définit (sur une échelle de 1 à 10 par exemple) et de faire une cartographie de tous ces jugements.
+
+3  Buts
+Le but de ce travail est de créer un outil générique permettant la création d’instance de votations accessible par tout le monde. Le but final de ce travail est de créer une instance permettant la visualisation de la propreté du monde. La visualisation se fera au travers d’une carte avec des nuancés de couleurs pour exprimer les différents seuils de propretés. La propreté sera définie par des votations émises par n’importe qui dans le monde en fonction de sa position géographique. La plate-forme doit être public et accessible par tout le monde. Elle a pour but d’être utilisée à grande échelle.
+
+4  Technologies
+Les contraintes technologiques sont d’utiliser le "Django" et une base de données SQL. Pour le reste, aucune contrainte n’est imposée mis à part d’utiliser au maximum des outils open source. Il est permis d’utiliser des librairies déjà existantes. L’infrastructure pour héberger l’application sera mise à disposition.
+
+5  Travail à réaliser
+Ce travail consiste en 3 Workpakages :
+— Workpakage 1 : Création d’une "Votation Map" permettant l’affichage de votations liées à des positions géographiques.
+— Workpakage 2 : Création d’une infrastructure serveur générique permettant la création d’instances de votations et le traitement de celles-ci.
+— Workpakage 3 : Création d’une interface utilisateur pour que n’importe quelle personne puisse visualiser et soumettre des votations liées à la propreté d’un lieu (à condition d’être connecté).
+
